@@ -1,0 +1,62 @@
+.pingja {
+  border-top: 1px solid #ddd;
+  margin-top: 0.08rem;
+  padding-bottom: 1.22rem;
+}
+.pingja ul {
+  display: flex;
+  padding: 0.1rem 0;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  border-bottom: 1px solid #ddd;
+}
+.pingja li {
+  flex: 1;
+  padding: 0.14rem 0.2rem;
+  margin-right: 0.25rem;
+  text-align: center;
+  background: #999;
+  color: #fff;
+  border-radius: 5px;
+}
+.pingja .select {
+  background: #ff9900;
+}
+.pingja .content-box {
+  padding-bottom: 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-bottom: 1px solid #ddd;
+}
+.pingja .content-box .c-top {
+  height: 0.62rem;
+  line-height: 0.62rem;
+}
+.pingja .content-box .c-top .user-name {
+  float: left;
+  color: #ff9900;
+  font-size: 0.24rem;
+}
+.pingja .content-box .c-top .time {
+  float: right;
+  font-size: 0.18rem;
+  color: #999;
+}
+.pingja .content-box .c-img img {
+  height: 1.52rem;
+  margin-right: 2px;
+}
+.pingja .content-box .buyer-say {
+  color: #999;
+  font-size: 0.2rem;
+  margin-top: 0.08rem;
+  margin-bottom: 0.1rem;
+}
+.pingja .content-box .seller-say {
+  background-color: #ddd;
+  font-size: 0.18rem;
+  padding: 0.13rem 0.1rem;
+  color: #666;
+  line-height: 0.24rem;
+  border-radius: 8px;
+}

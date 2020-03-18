@@ -1,0 +1,157 @@
+/* 顶部部分 */
+.detail-top {
+  position: relative;
+  border-bottom: 2px solid #eee;
+}
+.detail-top span {
+  position: absolute;
+  z-index: 100;
+  display: block;
+  background-color: #b2b2b2;
+  text-align: center;
+}
+.detail-top .back-icon {
+  width: 0.56rem;
+  height: 0.56rem;
+  left: 0.23rem;
+  top: 0.08rem;
+  border-radius: 50%;
+  line-height: 0.56rem;
+}
+.detail-top .back-icon img {
+  width: 0.16rem;
+  height: 0.28rem;
+}
+.detail-top .car-icon {
+  top: 0.11rem;
+  right: 1.21rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  border-radius: 50%;
+  line-height: 0.52rem;
+}
+.detail-top .car-icon img {
+  width: 0.29rem;
+  height: 0.27rem;
+}
+.detail-top .dian-icon {
+  top: 0.11rem;
+  right: 0.28rem;
+  width: 0.52rem;
+  height: 0.52rem;
+  border-radius: 50%;
+}
+.detail-top .dian-icon img {
+  width: 0.26rem;
+  height: 0.06rem;
+}
+.goodsInfo {
+  background-color: #fff;
+}
+.goodsInfo .infoTop {
+  padding-left: 0.29rem;
+}
+.goodsInfo .infoTop .title {
+  width: 5.72rem;
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  color: #333;
+  float: left;
+}
+.goodsInfo .infoTop .starLike {
+  float: right;
+  height: 0.7rem;
+  padding: 0 0.31rem;
+  margin-top: 0.12rem;
+  text-align: center;
+  border-left: 1px solid #ddd;
+}
+.goodsInfo .infoTop .starLike img {
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.goodsInfo .infoTop .starLike span {
+  display: block;
+}
+.goodsInfo .priceDetail {
+  padding-left: 0.29rem;
+  padding-top: 0.13rem;
+  font-size: 0;
+  margin-bottom: 0.1rem;
+}
+.goodsInfo .priceDetail .priceNew {
+  display: inline-block;
+  color: #eb2222;
+  font-size: 0.34rem;
+  width: 1.74rem;
+}
+.goodsInfo .priceDetail .discount,
+.goodsInfo .priceDetail .free-send {
+  background: #ff9900;
+  display: inline-block;
+  color: #fff;
+  padding: 0.06rem 0.1rem;
+  font-size: 0.2rem;
+  margin-right: 0.2rem;
+}
+.goodsInfo .bottom-tag {
+  padding-left: 0.29rem;
+}
+.goodsInfo .bottom-tag .priceOld {
+  float: left;
+  width: 1.74rem;
+  font-size: 0.24rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.goodsInfo .bottom-tag .tag li {
+  float: left;
+  padding: 0.04rem 0.12rem;
+  color: #ff9900;
+  font-size: 0.2rem;
+  text-align: center;
+  border: 0.02rem solid#ff9900;
+  margin-right: 0.1rem;
+}
+/* 空盒子 */
+.null {
+  width: 100%;
+  height: 0.32rem;
+  background-color: #eee;
+  margin-top: 0.2rem;
+}
+/* 商品详情与买家口碑 */
+.shopDetail {
+  float: left;
+  color: #999;
+  text-align: center;
+  font-size: 0.26rem;
+  padding: 0.22rem 0.24rem 0.1rem;
+  margin-left: 1.13rem;
+  margin-right: 1.13rem;
+}
+.res {
+  float: right;
+  color: #999;
+  text-align: center;
+  margin-right: 1.35rem;
+  padding-top: 0.22rem;
+  padding-bottom: 0.1rem;
+  font-size: 0.26rem;
+  width: 1.52rem;
+}
+.formal {
+  color: #999;
+  border: none;
+}
+.select {
+  color: #ff9900;
+  border-bottom: 0.03rem solid #ff9900;
+}
+/* 详情页面 */
+.xiangqing {
+  padding: 0.3rem 0.46rem 0.98rem;
+}
+.xiangqing img {
+  width: 6.58rem;
+}

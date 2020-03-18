@@ -1,0 +1,84 @@
+.Guige {
+  position: fixed;
+  bottom: 0.97rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: 101;
+}
+.Guige .g-top {
+  height: 1.89rem;
+  position: relative;
+}
+.Guige .g-top .goodimg {
+  position: absolute;
+  width: 2.02rem;
+  height: 2.02rem;
+  border-radius: 3px;
+  left: 0.42rem;
+  top: -0.28rem;
+  border: 0.07rem solid #ddd;
+}
+.Guige .g-top .goodimg img {
+  width: 2.02rem;
+  height: 2.02rem;
+}
+.Guige .g-top .props {
+  position: relative;
+  margin-left: 2.8rem;
+  padding-top: 0.66rem;
+}
+.Guige .g-top .props h3 {
+  font-size: 0.3rem;
+  color: #eb2222;
+}
+.Guige .g-top .props p {
+  font-size: 0.25rem;
+  line-height: 0.33rem;
+}
+.Guige .g-top .props .close {
+  background: url(../images/close_03.jpg);
+  background-size: cover;
+  width: 0.56rem;
+  height: 0.56rem;
+  display: block;
+  position: absolute;
+  right: 0.29rem;
+  top: 0.29rem;
+}
+.bu-num {
+  font-size: 0.3rem;
+  height: 1.1rem;
+  padding-left: 0.42rem;
+  padding-right: 0.4rem;
+}
+.bu-num span {
+  display: inline-block;
+  padding-top: 0.33rem;
+}
+.bu-num .van-stepper {
+  float: right;
+  margin-top: 0.22rem;
+}
+.sku {
+  padding-left: 0.42rem;
+}
+.sku p {
+  margin-bottom: 0.2rem;
+  font-size: 0.3rem;
+}
+.sku ul {
+  margin-bottom: 0.44rem;
+}
+.sku ul li {
+  float: left;
+  padding: 0.11rem 0.44rem;
+  background: #ddd;
+  margin-right: 0.2rem;
+  border-radius: 5px;
+  color: #999;
+  font-size: 0.25rem;
+}
+.sku ul .selected {
+  background: #ff9900;
+  color: #fff;
+}
